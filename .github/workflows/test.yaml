@@ -1,0 +1,12 @@
+name: Testing Self Hosted Runner
+on: 
+  workflow_dispatch: 
+jobs: 
+  testing: 
+    runs-on: self-hosted
+    steps:
+      - name: runnign commands
+        run: | 
+              echo "This is Mayank self Hosted Runner"
+              echo "OK!!!"
+              sleep 1000s
